@@ -32,4 +32,9 @@ public class ItemsServiceImpl implements ItemsService {
         System.out.println("acount:"+acount);
         return acount;
     }
+
+    @Override
+    public List<Items> findAll() {
+        return null;
+    }
 }

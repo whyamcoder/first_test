@@ -32,14 +32,14 @@ public class ItemsController {
         return "items";
     }
 
-/*    @RequestMapping(value = "/list2")
+    @RequestMapping(value = "/list2")
     public ModelAndView list(){
         ModelAndView modelAndView = new ModelAndView();
         List<Items> list = itemsService.findAll();
         modelAndView.addObject("items",list);
         modelAndView.setViewName("items");
         return modelAndView;//页面名称 .jsp
-    }*/
+    }
 
     /***
      * 增加商品

@@ -18,4 +18,6 @@ public interface ItemsService {
      * @return
      */
     int save(Items items);
+
+    List<Items> findAll();
 }
